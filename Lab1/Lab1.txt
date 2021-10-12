@@ -1,0 +1,7 @@
+utworzenie projektu
+zamkniecie projektu
+pod init - dodanie pliku Podfile
+edycja pliku Podfile
+dodanie Alamofire (5.4.4) w pliku Podfile
+pod install - instalacja podów
+otworzenie projektu z rozszerzeniem .xcworkspace
