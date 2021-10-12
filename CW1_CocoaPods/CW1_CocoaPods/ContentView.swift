@@ -6,11 +6,20 @@
 //
 
 import SwiftUI
+import Alamofire
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Text("Hello, world!")
+                .padding()
+            Button("Title") {
+                AF.request("http://httpbin.org/uuid")
+                    .response {
+                        response in debugPrint(response)
+                    }
+            }
+        }
     }
 }
 

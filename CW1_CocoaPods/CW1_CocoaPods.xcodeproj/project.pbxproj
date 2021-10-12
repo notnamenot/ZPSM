@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		096F4AEBEC1236B8A12BF0BB /* Pods_CW1_CocoaPods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2FC1CDDAE10C0C8B69AA6D /* Pods_CW1_CocoaPods.framework */; };
+		34D323C04281FCA7A9810AD3 /* libPods-CW1_CocoaPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F84C6F7B0BD546C23A302FC8 /* libPods-CW1_CocoaPods.a */; };
 		3F742854271598CE00DBEF27 /* CW1_CocoaPodsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F742853271598CE00DBEF27 /* CW1_CocoaPodsApp.swift */; };
 		3F742856271598CE00DBEF27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F742855271598CE00DBEF27 /* ContentView.swift */; };
 		3F742858271598D000DBEF27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F742857271598D000DBEF27 /* Assets.xcassets */; };
@@ -21,8 +21,8 @@
 		3F742857271598D000DBEF27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F74285A271598D000DBEF27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BE0C28AFBB074C06A5C44389 /* Pods-CW1_CocoaPods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CW1_CocoaPods.release.xcconfig"; path = "Target Support Files/Pods-CW1_CocoaPods/Pods-CW1_CocoaPods.release.xcconfig"; sourceTree = "<group>"; };
-		CA2FC1CDDAE10C0C8B69AA6D /* Pods_CW1_CocoaPods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CW1_CocoaPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6154A2F6957621DCF1D0FB4 /* Pods-CW1_CocoaPods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CW1_CocoaPods.debug.xcconfig"; path = "Target Support Files/Pods-CW1_CocoaPods/Pods-CW1_CocoaPods.debug.xcconfig"; sourceTree = "<group>"; };
+		F84C6F7B0BD546C23A302FC8 /* libPods-CW1_CocoaPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CW1_CocoaPods.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,7 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				096F4AEBEC1236B8A12BF0BB /* Pods_CW1_CocoaPods.framework in Frameworks */,
+				34D323C04281FCA7A9810AD3 /* libPods-CW1_CocoaPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +77,7 @@
 		779ECD71C63586F40F238DA2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CA2FC1CDDAE10C0C8B69AA6D /* Pods_CW1_CocoaPods.framework */,
+				F84C6F7B0BD546C23A302FC8 /* libPods-CW1_CocoaPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -103,7 +103,6 @@
 				3F74284C271598CE00DBEF27 /* Sources */,
 				3F74284D271598CE00DBEF27 /* Frameworks */,
 				3F74284E271598CE00DBEF27 /* Resources */,
-				9A095A231493F16B776E0782 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -180,23 +179,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9A095A231493F16B776E0782 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CW1_CocoaPods/Pods-CW1_CocoaPods-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CW1_CocoaPods/Pods-CW1_CocoaPods-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CW1_CocoaPods/Pods-CW1_CocoaPods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

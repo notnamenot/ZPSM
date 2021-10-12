@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3B52711B565CBA19B6954B61C56AFCD5"
-               BuildableName = "libPods-CW1_CocoaPods.a"
-               BlueprintName = "Pods-CW1_CocoaPods"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               BlueprintIdentifier = "3F74284F271598CE00DBEF27"
+               BuildableName = "CW1_CocoaPods.app"
+               BlueprintName = "CW1_CocoaPods"
+               ReferencedContainer = "container:CW1_CocoaPods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -40,6 +40,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3F74284F271598CE00DBEF27"
+            BuildableName = "CW1_CocoaPods.app"
+            BlueprintName = "CW1_CocoaPods"
+            ReferencedContainer = "container:CW1_CocoaPods.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -47,6 +57,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3F74284F271598CE00DBEF27"
+            BuildableName = "CW1_CocoaPods.app"
+            BlueprintName = "CW1_CocoaPods"
+            ReferencedContainer = "container:CW1_CocoaPods.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
