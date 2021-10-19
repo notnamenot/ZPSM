@@ -34,8 +34,10 @@ struct ContentView: View {
                                 print("hurra")
                                 print(json)
                                 //guard let json = try? JSON(data: result) else {print("x")  }
-                                /*let id = json["_id"].stringValue
-                                let color = json["avatarColor"].stringValue
+                                let sun_set = json["sun_set"].stringValue
+                                print("sun_set")
+                                print(sun_set)
+                            /*let color = json["avatarColor"].stringValue
                                 let avatarName = json["avatarName"].stringValue
                                 let email = json["email"].stringValue
                                 let name = json["name"].stringValue*/
