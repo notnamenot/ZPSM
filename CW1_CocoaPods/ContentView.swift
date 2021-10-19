@@ -22,7 +22,7 @@ struct ContentView: View {
                     //}
                     .responseJSON { response in
                         //let cond = response["consolidated_weather"]
-                        print(response)
+                        //print(response)
                         //print(response.request as Any)
 
                         //let json = try? JSON(response.result.value!)
@@ -30,7 +30,10 @@ struct ContentView: View {
                         switch response.result
                         {
                             case .success(let result):
-                                guard let json = try? JSON(data: result) else {print("x")  }
+                                let json = JSON(result)
+                                print("hurra")
+                                print(json)
+                                //guard let json = try? JSON(data: result) else {print("x")  }
                                 /*let id = json["_id"].stringValue
                                 let color = json["avatarColor"].stringValue
                                 let avatarName = json["avatarName"].stringValue
