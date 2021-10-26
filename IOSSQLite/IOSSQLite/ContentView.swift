@@ -18,6 +18,7 @@ struct ContentView: View {
             Button("Connect to db",action: db.connectToDB)
             Button("create tables", action: db.createTables)
             Button("Fill db", action: db.fillDB)
+            Button("drop tables", action: db.deleteTables)
         }.padding()
         
     }

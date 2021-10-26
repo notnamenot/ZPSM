@@ -30,22 +30,32 @@ class DB {
     
     func createTables() {
         
-        //var msg = ""//= nil
-        var zErrMsg:CCharPointer? //= nil//
+
+        //var zErrMsg:CCharPointer? //= nil//
         
         
-        let createTabSensorQry = "create table sensor(sensor_id integer primary key autoincrement, name varchar(30), description varchar(60)); "
-        let createTabReadingQry = "create table reading(reading_id integer primary key autoincrement, timestamp timestamp default current_timestamp, value double, sensor_id integer, foreign key(sensor_id) references sensor(sensor_id));"
+        let createTabSensorQry = "create table sensor(sensor_id varchar(10) primary key, name varchar(30), description varchar(60)); "
+        let createTabReadingQry = "create table reading(timestamp timestamp, value double, sensor_id varchar(10), primary key (sensor_id, timestamp, value),foreign key(sensor_id) references sensor(sensor_id));"
         
         var res = sqlite3_exec(db, createTabSensorQry, nil, nil, nil)
         print("create sensor res: ",res)
         res = sqlite3_exec(db, createTabReadingQry, nil, nil, nil)
         print("create reading res: ",res)
         //print(zErrMsg)
-        //print(msg)
+
+    }
+    
+    func deleteTables() {
+        let deleteTablesQry = "drop table sensor; drop table reading;"
+        var res = sqlite3_exec(db, deleteTablesQry, nil, nil, nil)
+        print("drop tables res: ",res)
     }
     
     func fillDB() {
+        let urlString = "https://home.agh.edu.pl/~ernst/zpsm/sensors.json"
         
     }
 }
+
+//http://www.wepstech.com/sqlite-in-ios-with-swift-5/
+//

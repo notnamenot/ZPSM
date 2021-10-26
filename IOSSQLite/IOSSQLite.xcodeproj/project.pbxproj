@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F33EA6927281BCD002C66D9 /* JSONHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F33EA6827281BCD002C66D9 /* JSONHelper.swift */; };
 		3F3B7EF227280C3900193D85 /* IOSSQLiteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B7EF127280C3900193D85 /* IOSSQLiteApp.swift */; };
 		3F3B7EF427280C3900193D85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B7EF327280C3900193D85 /* ContentView.swift */; };
 		3F3B7EF627280C3A00193D85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3B7EF527280C3A00193D85 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F33EA6827281BCD002C66D9 /* JSONHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONHelper.swift; sourceTree = "<group>"; };
 		3F3B7EEE27280C3900193D85 /* IOSSQLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSSQLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3B7EF127280C3900193D85 /* IOSSQLiteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSSQLiteApp.swift; sourceTree = "<group>"; };
 		3F3B7EF327280C3900193D85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				3F3B7EF127280C3900193D85 /* IOSSQLiteApp.swift */,
 				3F3B7EF327280C3900193D85 /* ContentView.swift */,
 				3F3B7F0327280FB900193D85 /* DB.swift */,
+				3F33EA6827281BCD002C66D9 /* JSONHelper.swift */,
 				3F3B7EF527280C3A00193D85 /* Assets.xcassets */,
 				3F3B7EF727280C3A00193D85 /* Preview Content */,
 			);
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F3B7EF427280C3900193D85 /* ContentView.swift in Sources */,
+				3F33EA6927281BCD002C66D9 /* JSONHelper.swift in Sources */,
 				3F3B7EF227280C3900193D85 /* IOSSQLiteApp.swift in Sources */,
 				3F3B7F0427280FB900193D85 /* DB.swift in Sources */,
 			);
