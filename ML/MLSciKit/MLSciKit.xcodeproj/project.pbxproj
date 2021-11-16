@@ -11,6 +11,7 @@
 		3F30CC6B273A995000C95865 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F30CC6A273A995000C95865 /* ContentView.swift */; };
 		3F30CC6D273A995000C95865 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F30CC6C273A995000C95865 /* Assets.xcassets */; };
 		3F30CC70273A995000C95865 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F30CC6F273A995000C95865 /* Preview Assets.xcassets */; };
+		3F30CC77273A9E4400C95865 /* RandomForestPassatPriceUsd.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3F30CC76273A9E4400C95865 /* RandomForestPassatPriceUsd.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		3F30CC6A273A995000C95865 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3F30CC6C273A995000C95865 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F30CC6F273A995000C95865 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F30CC76273A9E4400C95865 /* RandomForestPassatPriceUsd.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = RandomForestPassatPriceUsd.mlmodel; path = ../../RandomForestPassatPriceUsd.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 				3F30CC68273A995000C95865 /* MLSciKitApp.swift */,
 				3F30CC6A273A995000C95865 /* ContentView.swift */,
 				3F30CC6C273A995000C95865 /* Assets.xcassets */,
+				3F30CC76273A9E4400C95865 /* RandomForestPassatPriceUsd.mlmodel */,
 				3F30CC6E273A995000C95865 /* Preview Content */,
 			);
 			path = MLSciKit;
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F30CC6B273A995000C95865 /* ContentView.swift in Sources */,
+				3F30CC77273A9E4400C95865 /* RandomForestPassatPriceUsd.mlmodel in Sources */,
 				3F30CC69273A995000C95865 /* MLSciKitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
